@@ -1,0 +1,194 @@
+:root {
+  /* Couleurs de base */
+  --orange: #FF6B35;
+  --indigo: #e76f43;
+  --purple: #dd8666;
+  --pink: #e83e8c;
+  --red: #ea4d4d;
+  --yellow: #ffa21d;
+  --green: #17c666;
+  --teal: #008080;
+  --cyan: #3ec9d6;
+  --blanc: #ffffff;
+  
+  /* Body */
+  --body-bg: #fff;
+  --body-bg-rgb: 255, 255, 255;
+  
+  /* Typographie */
+  --pc-heading-color: #060606;
+  
+  /* Éléments actifs */
+  --pc-active-background: rgba(var(--bs-primary-rgb), 0.12);
+  
+  /* Sidebar */
+  --pc-sidebar-background: #000000;
+  --pc-sidebar-color: #FFFFFF;
+  --pc-sidebar-color-rgb: 206, 212, 220;
+  --pc-sidebar-icon-color: #778290;
+  --pc-sidebar-submenu-border-color: #778290;
+  --pc-sidebar-active-color: var(--bs-primary);
+  --pc-sidebar-main-active-color: #fff;
+  --pc-sidebar-main-active-background: #dfe7f1;
+  --pc-sidebar-shadow: 0px 0px 24px rgba(27, 46, 94, 0.05);
+  --pc-sidebar-caption-color: var(--bs-primary);
+  --pc-sidebar-border: none;
+  --pc-brand-background: #000000;
+  
+  /* Topbar (horizontal menu) */
+  --pc-topbar-background: #1c232f;
+  --pc-topbar-color: #b5bdca;
+  
+  /* Header */
+  --pc-header-background: #000000;
+  --pc-header-color: #525b69;
+  --pc-header-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  
+  /* Card */
+  --pc-card-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
+  
+  /* Breadcrumb */
+  --pc-breadcrumb-background: #fff;
+  --pc-breadcrumb-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  
+  /* Header submenu (horizontal menu) */
+  --pc-header-submenu-background: #fff;
+  --pc-header-submenu-color: #1c232f;
+}
+
+
+/* Classes Bootstrap de display responsive */
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-inline-flex {
+    display: inline-flex !important;
+}
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) {
+    .d-sm-none {
+        display: none !important;
+    }
+    .d-sm-block {
+        display: block !important;
+    }
+    .d-sm-inline {
+        display: inline !important;
+    }
+    .d-sm-inline-block {
+        display: inline-block !important;
+    }
+    .d-sm-flex {
+        display: flex !important;
+    }
+    .d-sm-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) {
+    .d-md-none {
+        display: none !important;
+    }
+    .d-md-block {
+        display: block !important;
+    }
+    .d-md-inline {
+        display: inline !important;
+    }
+    .d-md-inline-block {
+        display: inline-block !important;
+    }
+    .d-md-flex {
+        display: flex !important;
+    }
+    .d-md-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+    .d-lg-none {
+        display: none !important;
+    }
+    .d-lg-block {
+        display: block !important;
+    }
+    .d-lg-inline {
+        display: inline !important;
+    }
+    .d-lg-inline-block {
+        display: inline-block !important;
+    }
+    .d-lg-flex {
+        display: flex !important;
+    }
+    .d-lg-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) {
+    .d-xl-none {
+        display: none !important;
+    }
+    .d-xl-block {
+        display: block !important;
+    }
+    .d-xl-inline {
+        display: inline !important;
+    }
+    .d-xl-inline-block {
+        display: inline-block !important;
+    }
+    .d-xl-flex {
+        display: flex !important;
+    }
+    .d-xl-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+/* Extra extra large devices (≥1400px) */
+@media (min-width: 1400px) {
+    .d-xxl-none {
+        display: none !important;
+    }
+    .d-xxl-block {
+        display: block !important;
+    }
+    .d-xxl-inline {
+        display: inline !important;
+    }
+    .d-xxl-inline-block {
+        display: inline-block !important;
+    }
+    .d-xxl-flex {
+        display: flex !important;
+    }
+    .d-xxl-inline-flex {
+        display: inline-flex !important;
+    }
+}
+

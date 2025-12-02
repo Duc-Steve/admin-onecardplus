@@ -1,0 +1,15 @@
+.userPlus-name {
+    color: var(--blanc);
+}
+
+.userPlus-name:hover {
+    color: var(--orange);
+}
+
+.searchIconDiv {
+    background-color: var(--orange);
+    margin: 7px;
+    padding: 9px;
+    border-radius: 5px;
+    color: var(--blanc);
+}
