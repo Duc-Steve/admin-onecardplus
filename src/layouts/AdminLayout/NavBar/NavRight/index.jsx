@@ -16,7 +16,6 @@ import { ListGroup, Dropdown, Form } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
 
 // assets
-import '/src/assets/css/header.css';
 import avatar2 from 'assets/images/user/avatar-2.jpg';
 
 /**
@@ -27,7 +26,7 @@ import avatar2 from 'assets/images/user/avatar-2.jpg';
  */
 export default function NavRight() {
   return (
-    <ListGroup as="ul" bsPrefix=" " className="list-unstyled">
+    <ListGroup as="ul" bsPrefix=" " className="d-flex flex-column-between w-100">
       {/* Barre de recherche - Version étendue sans dropdown */}
       <ListGroup.Item as="li" bsPrefix=" " className="pc-h-item search-container">
         <Form className="search-form">
@@ -64,7 +63,7 @@ export default function NavRight() {
               {/* Nom de l'utilisateur */}
               <span className="userPlus-name d-none d-lg-block">Joseph William</span>
               {/* Rôle de l'utilisateur */}
-              <span className="user-desc">Administrator</span>
+              <span className="userPlus-desc d-none d-lg-block">Administrator</span>
             </span>
           </Dropdown.Toggle>
 

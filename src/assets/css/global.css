@@ -2,6 +2,11 @@
     color: var(--blanc);
 }
 
+.userPlus-desc {
+    color: var(--orange);
+    font-size: 12px;
+}
+
 .userPlus-name:hover {
     color: var(--orange);
 }
@@ -12,4 +17,12 @@
     padding: 9px;
     border-radius: 5px;
     color: var(--blanc);
+}
+
+.authBody {
+    background-color: var(--noir);
+}
+
+.text-orange {
+    color: var(--orange);
 }

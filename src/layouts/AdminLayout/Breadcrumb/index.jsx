@@ -111,6 +111,7 @@ export default function Breadcrumb() {
             className="page-header" 
             role="navigation" 
             aria-label="Fil d'Ariane"
+            style={{borderBottom: '3px solid #000000', boxShadow: '0 0 3px #000000'}}
           >
             <div className="page-block">
               <Row className="align-items-center">
@@ -197,32 +198,3 @@ export default function Breadcrumb() {
 
   return <>{breadcrumbContent}</>;
 }
-
-/**
- * Notes techniques:
- * 
- * 1. Structure adaptée pour menu sans groupes:
- *    - Les éléments sont directement dans le tableau items
- *    - Deux types possibles: 'item' (simple) et 'collapse' (avec enfants)
- *    - Les collapse peuvent avoir eux-mêmes une URL (optionnel)
- * 
- * 2. Logique de recherche:
- *    - Recherche récursive dans les collapse et leurs enfants
- *    - Gestion des correspondances exactes et partielles
- *    - Support de la propriété 'exact' pour contrôler les correspondances
- * 
- * 3. Rendu du breadcrumb:
- *    - Accueil → Parent (si existe) → Page actuelle
- *    - Le parent est le collapse contenant l'item actif
- *    - Boutons d'action conditionnels basés sur le parent
- * 
- * 4. Exemples de navigation:
- *    - Page Dashboard: Accueil → Dashboard
- *    - Page Liste des utilisateurs: Accueil → Utilisateurs → Liste des utilisateurs
- *    - Page Paramètres: Accueil → Système → Paramètres
- * 
- * 5. Performance:
- *    - Utilisation de useCallback pour éviter les re-créations de fonction
- *    - Utilisation de useMemo pour optimiser le rendu
- *    - Recherche arrêtée dès qu'un élément est trouvé
- */

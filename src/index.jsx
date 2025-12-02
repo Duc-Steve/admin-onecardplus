@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 // style + assets
 import './index.scss';
 import '/src/assets/css/important.css';
+import '/src/assets/css/global.css';
 
 // -----------------------|| REACT DOM RENDER  ||-----------------------//
 

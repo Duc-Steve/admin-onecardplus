@@ -15,7 +15,7 @@ export function SalesAccountChartData() {
           columnWidth: '50%'
         }
       },
-      colors: ['#7267EF', '#c7d9ff'],
+      colors: ['#FF6B35', '#c7d9ff'],
       fill: {
         opacity: [0.85, 1]
       },

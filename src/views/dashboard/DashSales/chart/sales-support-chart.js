@@ -10,7 +10,7 @@ export function SalesSupportChartData() {
         },
         background: 'transparent'
       },
-      colors: ['#7267EF'],
+      colors: ['#FF6B35'],
       stroke: {
         curve: 'smooth',
         width: 2

@@ -13,7 +13,7 @@ const menuItems = {
       type: 'item',
       icon: 'remixicon',
       iconname: 'ri-dashboard-line',
-      url: '/admin/dashboard'
+      url: '/'
     },
 
     // =====================================================
